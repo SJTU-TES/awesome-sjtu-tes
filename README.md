@@ -49,7 +49,7 @@ We mark work contributed by **SJTU** with ⭐.
 
 #### 1.1.2 Stable Diffusion v1.5 [![GitHub stars](https://img.shields.io/github/stars/CompVis/stable-diffusion?style=social&label=Star&maxAge=8640)](https://GitHub.com/CompVis/stable-diffusion/) 
 
-The ``stable-diffusion-v1-5`` checkpoint was initialized with the weights of the ``stable-diffusion-v1-2`` checkpoint and subsequently fine-tuned on 595k steps at resolution 512x512 on ``laion-aesthetics v2 5+`` and 10% dropping of the text-conditioning to improve classifier-free guidance sampling. [paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Rombach_High-Resolution_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2022_paper.pdf), [code](https://github.com/CompVis/stable-diffusion), [pretrained](https://huggingface.co/runwayml/stable-diffusion-v1-5)
+The ``stable-diffusion-v1-5`` checkpoint was initialized with the weights of the ``stable-diffusion-v1-2`` checkpoint and subsequently fine-tuned on 595k steps at resolution 512x512 on ``laion-aesthetics v2 5+`` and 10% dropping of the text-conditioning to improve classifier-free guidance sampling. [paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Rombach_High-Resolution_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2022_paper.pdf), [code](https://github.com/CompVis/stable-diffusion), [pretrained](https://huggingface.co/runwayml/stable-diffusion-v1-5), [repro](https://github.com/SJTU-TES/repro-stable-diffusion)
 <details>
 <summary>Click to view examples we have implemented</summary>
 
@@ -64,7 +64,7 @@ The ``stable-diffusion-v1-5`` checkpoint was initialized with the weights of the
 
 ``Latte``, **a novel latent diffusion transformer for video generation**, utilizes spatio-temporal tokens extracted from input videos and employs a series of Transformer blocks to model the distribution of videos in the latent space. Latte achieves state-of-the-art performance on four standard video generation datasets ``FaceForensics``, ``SkyTimelapse``, ``UCF101``, and ``Taichi-HD``.
 
-[paper](https://arxiv.org/pdf/2401.03048v1.pdf), [code](https://github.com/Vchitect/Latte?tab=readme-ov-file), [pretrained](https://huggingface.co/maxin-cn/Latte)
+[paper](https://arxiv.org/pdf/2401.03048v1.pdf), [code](https://github.com/Vchitect/Latte?tab=readme-ov-file), [pretrained](https://huggingface.co/maxin-cn/Latte), [repro](https://github.com/SJTU-TES/repro-latte)
 
 <details>
 <summary>Click to view examples we have implemented</summary>
@@ -88,7 +88,7 @@ The ``stable-diffusion-v1-5`` checkpoint was initialized with the weights of the
 
 #### 1.3.2 Roop [![GitHub stars](https://img.shields.io/github/stars/s0md3v/roop?style=social&label=Star&maxAge=8640)](https://GitHub.com/s0md3v/roop/) 
 
-``Roop``, **a fantastic tool of taking a video and replace the face in it with a face of users' choices.** Users only need one image of the desired face. No dataset, no training. [code](https://github.com/s0md3v/roop)
+``Roop``, **a fantastic tool of taking a video and replace the face in it with a face of users' choices.** Users only need one image of the desired face. No dataset, no training. [code](https://github.com/s0md3v/roop), [repro](https://github.com/SJTU-TES/repro-roop)
 
 <details>
 <summary>Click to view examples we have implemented</summary>
