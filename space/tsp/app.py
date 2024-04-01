@@ -6,9 +6,9 @@ from fastapi import FastAPI
 from data4co import TSPConcordeSolver, draw_tsp_problem, draw_tsp_solution
 
 
-TSP_DEFAULT_PATH = "static/tso_default.png"
-TSP_PROBLEM_PATH = "media/tsp_problem.png"
-TSP_SOLUTION_PATH = "media/tsp_solution.png"
+TSP_DEFAULT_PATH = "/opt/run/static/tso_default.png"
+TSP_PROBLEM_PATH = "/opt/run/media/tsp_problem.png"
+TSP_SOLUTION_PATH = "/opt/run/media/tsp_solution.png"
 
 
 def _handle_tsp_solve(
