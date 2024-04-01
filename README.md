@@ -153,3 +153,12 @@ The ``stable-diffusion-v1-5`` checkpoint was initialized with the weights of the
 </details>
 
 ### [Web Scraping](#content)
+
+#### 3.2.1 ⭐VidFetch [![GitHub stars](https://img.shields.io/github/stars/heatingma/VidFetch?style=social&label=Star&maxAge=8640)](https://GitHub.com/heatingma/VidFetch/) 
+
+``VidFetch``, **an open-source dataset download tool to obtain copyright-free videos from various free video websites.** [code](https://github.com/heatingma/VidFetch)
+
+<details>
+<summary>Click to view details</summary>
+<img src="docs/examples/VidFecth.png" width="80%" alt="" />
+</details>
