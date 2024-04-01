@@ -36,6 +36,22 @@ We mark work contributed by **SJTU** with ⭐.
 	<td>&emsp;<a href=#web-scraping>3.2 Web Scraping</a></td>
 </tr>
 
+<tr><td colspan="2"><a href="#motion">4. Motion</a></td></tr> 
+<tr>
+	<td>&emsp;<a href=#motion-retargeting>4.1 Motion Retargeting</a></td>
+	<td>&emsp;<a href=#pose-estimation>4.2 Pose Estimation</a></td>
+</tr>
+<tr>
+	<td>&emsp;<a href=#video-matting>4.3 Video Matting</a></td>
+</tr>
+
+<tr><td colspan="2"><a href="#security">5. Security</a></td></tr> 
+<tr>
+	<td>&emsp;<a href=#deepLearning-security>5.1 DeepLearning Security</a></td>
+	<td>&emsp;<a href=#iot-security>5.2 IOT Security</a></td>
+</tr>
+
+
 </table>
 
 ## [AIGC](#content)
@@ -178,3 +194,75 @@ The ``stable-diffusion-v1-5`` checkpoint was initialized with the weights of the
 <summary>Click to view details</summary>
 <img src="docs/examples/VidFecth.png" width="80%" alt="" />
 </details>
+
+
+## [Motion](#content)
+
+### [Motion Retargeting](#content)
+
+#### 4.1.1 Transmomo [![GitHub stars](https://img.shields.io/github/stars/yzhq97/transmomo.pytorch?style=social&label=Star&maxAge=8640)](https://GitHub.com/yzhq97/transmomo.pytorch) 
+
+``Transmomo``, **Invariance-Driven Unsupervised Video Motion Retargeting** A lightweight video motion retargeting approach that is capable of transferring motion in spite of structural and view-angle disparities between the source and the target.[code](https://github.com/yzhq97/transmomo.pytorch)
+
+<details>
+<summary>Click to view details</summary>
+<img src='https://yzhq97.github.io/assets/transmomo/dance.gif' width='480'/>
+</p>
+</details>
+
+#### 4.1.2 EDN [![GitHub stars](https://img.shields.io/github/stars/carolineec/EverybodyDanceNow?style=social&label=Star&maxAge=8640)](https://github.com/carolineec/EverybodyDanceNow) 
+
+``EverybodyDanceNow``, **A simple method for "do as I do" motion transfer:** Given a source video of a person dancing, we can transfer that performance to a novel (amateur) target after only a few minutes of the target subject performing standard moves.[code](https://github.com/carolineec/EverybodyDanceNow)
+
+<details>
+<summary>Click to view details</summary>
+<img src="docs/examples/edn1.jpg" width="60%" alt="" />
+<img src="docs/examples/edn2.jpg" width="60%" alt="" />
+</details>
+
+### [Pose Estimation](#content)
+
+#### 4.2.1 Openpose [![GitHub stars](https://img.shields.io/github/stars/Hzzone/pytorch-openpose?style=social&label=Star&maxAge=8640)](https://github.com/Hzzone/pytorch-openpose) 
+
+``Openpose``, **Real-time multi-person keypoint detection library for pose estimation** 2D real-time multi-person keypoint detection.We provide pytorch implementation of openpose including Body and Hand Pose Estimation.[code](https://github.com/Hzzone/pytorch-openpose)
+
+<details>
+<summary>Click to view details</summary>
+<img src="docs/examples/openpose.jpg" width="60%" alt="" />
+</details>
+
+### [Video Matting](#content)
+#### 4.3.1 RobustVideoMatting [![GitHub stars](https://img.shields.io/github/stars/PeterL1n/RobustVideoMatting?style=social&label=Star&maxAge=8640)](https://github.com/PeterL1n/RobustVideoMatting) 
+
+``RVM``, **Robust High-Resolution Video Matting with Temporal Guidance** RVM is specifically designed for robust human video matting. Unlike existing neural models that process frames as independent images, RVM uses a recurrent neural network to process videos with temporal memory. [code](https://github.com/PeterL1n/RobustVideoMatting)
+
+<details>
+<summary>Click to view details</summary>
+<img src="docs/examples/RVM.gif">
+</details>
+
+## [Security](#content)
+### [DeepLearning Security](#content)
+
+#### 5.1.1 ⭐DLSec [![GitHub stars](https://img.shields.io/github/stars/faiimea/DLSec?style=social&label=Star&maxAge=8640)](https://github.com/faiimea/DLSec) 
+
+``DLSec``, **Deep Learning model security evaluation platform** Taking attack paradigms and defense means such as anti-sample, data poisoning, backdoor attacks as examples, We studies and implements mainstream offensive and defensive algorithms for deep learning models, and builds a comprehensive and effective evaluation system for deep learning models from the perspectives of white box model and black box model. [code](https://github.com/faiimea/DLSec)
+
+
+#### 5.1.2 ⭐WDAD [![GitHub stars](https://img.shields.io/github/stars/faiimea/WDAD?style=social&label=Star&maxAge=8640)](https://github.com/faiimea/WDAD) 
+
+``WDAD``, **Adversarial sample detection based on weak dark textures**  [code](https://github.com/faiimea/WDAD)
+
+<details>
+<summary>Click to view details</summary>
+<img src="docs/examples/WDAD.png">
+</details>
+
+#### 5.1.3 ⭐UAP [![GitHub stars](https://img.shields.io/github/stars/faiimea/UAP?style=social&label=Star&maxAge=8640)](https://github.com/faiimea/UAP) 
+
+``UAP``, **Fingerprinting Deep Neural Networks Globally via Universal Adversarial Perturbations"** a novel and practical mechanism which enables the service provider to verify whether a suspect model is stolen from the victim model via model extraction attacks. [code](https://github.com/faiimea/UAP)
+
+### [IOT Security](#content)
+#### 5.2.1 ⭐WAV2COM [![GitHub stars](https://img.shields.io/github/stars/faiimea/wav2com?style=social&label=Star&maxAge=8640)](https://github.com/faiimea/wav2com) 
+
+``WAV2COM``, **Your Microphone Array Retains Your Identity: A Robust Voice Liveness Detection System for Smart Speakers**  [code](https://github.com/faiimea/wav2com)
