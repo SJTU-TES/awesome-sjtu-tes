@@ -1,6 +1,6 @@
 import time
 import shutil
-import uvicorn
+# import uvicorn
 import gradio as gr
 from fastapi import FastAPI
 from data4co import TSPConcordeSolver, draw_tsp_problem, draw_tsp_solution
@@ -145,5 +145,5 @@ app = FastAPI()
 app = gr.mount_gradio_app(app, tsp_page, path="/")
 
 
-if __name__ == "__main__":
-    uvicorn.run(app, host="0.0.0.0", port=7860)
+# if __name__ == "__main__":
+#     uvicorn.run(app, host="0.0.0.0", port=7860)
