@@ -132,11 +132,27 @@ The ``stable-diffusion-v1-5`` checkpoint was initialized with the weights of the
 
 ``T2T``, **Training to Testing.** T2TCO framework first leverages the generative modeling to estimate the high-quality solution distribution for each instance during training, and then conducts a gradient-based search within the solution space during testing. [paper](https://openreview.net/pdf?id=JtF0ugNMv2), [code](https://github.com/Thinklab-SJTU/T2TCO), [pretrained](https://drive.google.com/drive/folders/1IjaWtkqTAs7lwtFZ24lTRspE0h1N6sBH)
 
+<details>
+<summary>Click to view examples we have implemented</summary>
+<div style="display: flex; flex-direction: row;">
+  <img src="docs/examples/tsp_problem.png" height="250px">
+  <img src="docs/examples/tsp_solution.png" height="250px">
+</div>
+</details>
+
 ### [Maximum Independent Set](#content)
 
 #### 2.4.1 ⭐T2T [![GitHub stars](https://img.shields.io/github/stars/Thinklab-SJTU/T2TCO?style=social&label=Star&maxAge=8640)](https://GitHub.com/Thinklab-SJTU/T2TCO/)
 
 ``T2T``, **Training to Testing.** T2TCO framework first leverages the generative modeling to estimate the high-quality solution distribution for each instance during training, and then conducts a gradient-based search within the solution space during testing. [paper](https://openreview.net/pdf?id=JtF0ugNMv2), [code](https://github.com/Thinklab-SJTU/T2TCO), [pretrained](https://drive.google.com/drive/folders/1IjaWtkqTAs7lwtFZ24lTRspE0h1N6sBH)
+
+<details>
+<summary>Click to view examples we have implemented</summary>
+<div style="display: flex; flex-direction: row;">
+  <img src="docs/examples/mis_problem.png" height="250px">
+  <img src="docs/examples/mis_solution.png" height="250px">
+</div>
+</details>
 
 ## [Website](#content)
 
