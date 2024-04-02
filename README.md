@@ -137,7 +137,7 @@ The ``stable-diffusion-v1-5`` checkpoint was initialized with the weights of the
 
 #### 2.2.1 ⭐GENN-A* [![GitHub stars](https://img.shields.io/github/stars/Thinklab-SJTU/GENN-Astar?style=social&label=Star&maxAge=8640)](https://GitHub.com/Thinklab-SJTU/GENN-Astar/) 
 
-``GENN-A*``, **Graph Edit Neural Network (GENN),** aims to accelerate the A* solver for graph edit distance problem based on Graph Neural Network. GENN-A* aided A* algorithm works by replacing the heuristic prediction module in A* by GNN. Since the accuracy of heuristic prediction is crucial for the performance of A*, this approach can significantly improve the efficiency of A*. [paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Wang_Combinatorial_Learning_of_Graph_Edit_Distance_via_Dynamic_Embedding_CVPR_2021_paper.pdf), [code](https://github.com/Thinklab-SJTU/GENN-Astar), [pretrained](https://drive.google.com/drive/folders/1mUpwHeW1RbMHaNxX_PZvD5HrWvyCQG8y)
+``GENN-A*``, **Graph Edit Neural Network (GENN),** aims to accelerate the A* solver for graph edit distance problem based on Graph Neural Network. GENN-A* aided A* algorithm works by replacing the heuristic prediction module in A* by GNN. Since the accuracy of heuristic prediction is crucial for the performance of A*, this approach can significantly improve the efficiency of A*. [paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Wang_Combinatorial_Learning_of_Graph_Edit_Distance_via_Dynamic_Embedding_CVPR_2021_paper.pdf), [code](https://github.com/Thinklab-SJTU/GENN-Astar), [pretrained](https://drive.google.com/drive/folders/1mUpwHeW1RbMHaNxX_PZvD5HrWvyCQG8y), [space](https://huggingface.co/spaces/SJTU-TES/GED)
 
 <details>
 <summary>Click to view examples we have implemented</summary>
@@ -216,7 +216,7 @@ The ``stable-diffusion-v1-5`` checkpoint was initialized with the weights of the
 
 #### 4.1.1 Transmomo [![GitHub stars](https://img.shields.io/github/stars/yzhq97/transmomo.pytorch?style=social&label=Star&maxAge=8640)](https://GitHub.com/yzhq97/transmomo.pytorch) 
 
-``Transmomo``, **Invariance-Driven Unsupervised Video Motion Retargeting** A lightweight video motion retargeting approach that is capable of transferring motion in spite of structural and view-angle disparities between the source and the target.[code](https://github.com/yzhq97/transmomo.pytorch)
+``Transmomo``, **Invariance-Driven Unsupervised Video Motion Retargeting** A lightweight video motion retargeting approach that is capable of transferring motion in spite of structural and view-angle disparities between the source and the target.[code](https://github.com/yzhq97/transmomo.pytorch), [space](https://huggingface.co/spaces/SJTU-TES/TMM)
 
 <details>
 <summary>Click to view details</summary>
@@ -238,7 +238,7 @@ The ``stable-diffusion-v1-5`` checkpoint was initialized with the weights of the
 
 #### 4.2.1 Openpose [![GitHub stars](https://img.shields.io/github/stars/Hzzone/pytorch-openpose?style=social&label=Star&maxAge=8640)](https://github.com/Hzzone/pytorch-openpose) 
 
-``Openpose``, **Real-time multi-person keypoint detection library for pose estimation** 2D real-time multi-person keypoint detection.We provide pytorch implementation of openpose including Body and Hand Pose Estimation.[code](https://github.com/Hzzone/pytorch-openpose)
+``Openpose``, **Real-time multi-person keypoint detection library for pose estimation** 2D real-time multi-person keypoint detection.We provide pytorch implementation of openpose including Body and Hand Pose Estimation.[code](https://github.com/Hzzone/pytorch-openpose), [space](https://huggingface.co/spaces/SJTU-TES/OpenPose)
 
 <details>
 <summary>Click to view details</summary>
