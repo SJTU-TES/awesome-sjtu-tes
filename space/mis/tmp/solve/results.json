@@ -1,0 +1,15 @@
+{
+    "mis_problem": {
+        "found_mis": true,
+        "mis": [
+            0,
+            3,
+            9,
+            13,
+            17
+        ],
+        "solution_time": 0.071285,
+        "total_time": 0.0809088961686939,
+        "vertices": 5
+    }
+}
