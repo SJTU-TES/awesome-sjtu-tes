@@ -36,7 +36,7 @@ We mark work contributed by **SJTU** with ⭐.
 	<td>&emsp;<a href=#web-scraping>3.2 Web Scraping</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#cpp-oline>3.3 Online Chatting</a></td>
+	<td>&emsp;<a href=#cpp-oline>3.3 Cpp Oline</a></td>
 </tr>
 
 <tr><td colspan="2"><a href="#motion">4. Motion</a></td></tr> 
