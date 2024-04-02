@@ -200,7 +200,7 @@ The ``stable-diffusion-v1-5`` checkpoint was initialized with the weights of the
 
 ### [Cpp Oline](#content)
 
-#### 3.3.1 ⭐VidFetch [![GitHub stars](https://img.shields.io/github/stars/zhouzhouzhouxiao/web-cpp?style=social&label=Star&maxAge=8640)](https://GitHub.com/zhouzhouzhouxiao/web-cpp/) 
+#### 3.3.1 ⭐web-cpp [![GitHub stars](https://img.shields.io/github/stars/zhouzhouzhouxiao/web-cpp?style=social&label=Star&maxAge=8640)](https://GitHub.com/zhouzhouzhouxiao/web-cpp/) 
 
 ``VidFetch``, **an open-source dataset download tool to obtain copyright-free videos from various free video websites. an online platform that enables users to write and execute C++ code directly within their browsers.** [code](https://github.com/zhouzhouzhouxiao/web-cpp)
 
