@@ -35,7 +35,7 @@ def _handle_pygm_solve(
     )
     solved_time = time.time() - start_time
     
-    message = "Successfully solve the TSP problem, using time ({:.3f}s).".format(solved_time)
+    message = "Successfully solve the PYGM problem, using time ({:.3f}s).".format(solved_time)
     
     return message, PYGM_SOLUTION_1_PATH, PYGM_SOLUTION_2_PATH
     
@@ -85,9 +85,11 @@ with gr.Blocks() as pygm_page:
         '''
         This space displays the solution to the Graph Matching problem.
         ## How to use this Space?
-        - Upload a '.pygm' file from pygmlib .
-        - The images of the TSP problem and solution will be shown after you click the solve button.
+        - Upload two pairs of '.png' and '.mat' files.
+        - The results of the Graph Matching problem will be shown after you click the solve button.
         - Click the 'clear' button to clear all the files.
+        ## Examples
+        - You can get the test examples from our [Graph Match Dataset Repo.](https://huggingface.co/datasets/SJTU-TES/Graph-Match)
         '''
     )
 

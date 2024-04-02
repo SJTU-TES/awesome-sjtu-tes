@@ -77,9 +77,11 @@ with gr.Blocks() as tsp_page:
         '''
         This space displays the solution to the TSP problem.
         ## How to use this Space?
-        - Upload a '.tsp' file from tsplib .
+        - Upload a '.tsp' file.
         - The images of the TSP problem and solution will be shown after you click the solve button.
         - Click the 'clear' button to clear all the files.
+        ## Examples
+        - You can get the test examples from our [TSP Dataset Repo.](https://huggingface.co/datasets/SJTU-TES/TSP) 
         '''
     )
 
