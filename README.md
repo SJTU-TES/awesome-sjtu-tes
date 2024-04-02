@@ -146,7 +146,7 @@ The ``stable-diffusion-v1-5`` checkpoint was initialized with the weights of the
 
 #### 2.3.1 ⭐T2T [![GitHub stars](https://img.shields.io/github/stars/Thinklab-SJTU/T2TCO?style=social&label=Star&maxAge=8640)](https://GitHub.com/Thinklab-SJTU/T2TCO/) 
 
-``T2T``, **Training to Testing.** T2TCO framework first leverages the generative modeling to estimate the high-quality solution distribution for each instance during training, and then conducts a gradient-based search within the solution space during testing. [paper](https://openreview.net/pdf?id=JtF0ugNMv2), [code](https://github.com/Thinklab-SJTU/T2TCO), [pretrained](https://drive.google.com/drive/folders/1IjaWtkqTAs7lwtFZ24lTRspE0h1N6sBH)
+``T2T``, **Training to Testing.** T2TCO framework first leverages the generative modeling to estimate the high-quality solution distribution for each instance during training, and then conducts a gradient-based search within the solution space during testing. [paper](https://openreview.net/pdf?id=JtF0ugNMv2), [code](https://github.com/Thinklab-SJTU/T2TCO), [pretrained](https://drive.google.com/drive/folders/1IjaWtkqTAs7lwtFZ24lTRspE0h1N6sBH), [space](https://huggingface.co/spaces/SJTU-TES/TSP)
 
 <details>
 <summary>Click to view examples we have implemented</summary>
@@ -160,7 +160,7 @@ The ``stable-diffusion-v1-5`` checkpoint was initialized with the weights of the
 
 #### 2.4.1 ⭐T2T [![GitHub stars](https://img.shields.io/github/stars/Thinklab-SJTU/T2TCO?style=social&label=Star&maxAge=8640)](https://GitHub.com/Thinklab-SJTU/T2TCO/)
 
-``T2T``, **Training to Testing.** T2TCO framework first leverages the generative modeling to estimate the high-quality solution distribution for each instance during training, and then conducts a gradient-based search within the solution space during testing. [paper](https://openreview.net/pdf?id=JtF0ugNMv2), [code](https://github.com/Thinklab-SJTU/T2TCO), [pretrained](https://drive.google.com/drive/folders/1IjaWtkqTAs7lwtFZ24lTRspE0h1N6sBH)
+``T2T``, **Training to Testing.** T2TCO framework first leverages the generative modeling to estimate the high-quality solution distribution for each instance during training, and then conducts a gradient-based search within the solution space during testing. [paper](https://openreview.net/pdf?id=JtF0ugNMv2), [code](https://github.com/Thinklab-SJTU/T2TCO), [pretrained](https://drive.google.com/drive/folders/1IjaWtkqTAs7lwtFZ24lTRspE0h1N6sBH), [space](https://huggingface.co/spaces/SJTU-TES/MIS)
 
 <details>
 <summary>Click to view examples we have implemented</summary>
@@ -216,8 +216,8 @@ The ``stable-diffusion-v1-5`` checkpoint was initialized with the weights of the
 
 <details>
 <summary>Click to view details</summary>
-<img src="docs/examples/edn1.jpg" width="60%" alt="" />
-<img src="docs/examples/edn2.jpg" width="60%" alt="" />
+<img src="docs/examples/edn1.jpg" width="45%" alt="" />
+<img src="docs/examples/edn2.jpg" width="45%" alt="" />
 </details>
 
 ### [Pose Estimation](#content)
