@@ -1,14 +1,12 @@
 import time
 import shutil
-# import uvicorn
 import gradio as gr
-from fastapi import FastAPI
 from data4co import TSPConcordeSolver, draw_tsp_problem, draw_tsp_solution
 
 
-TSP_DEFAULT_PATH = "/opt/run/static/tso_default.png"
-TSP_PROBLEM_PATH = "/opt/run/media/tsp_problem.png"
-TSP_SOLUTION_PATH = "/opt/run/media/tsp_solution.png"
+TSP_DEFAULT_PATH = "src/tsp_default.png"
+TSP_PROBLEM_PATH = "src/tsp_problem.png"
+TSP_SOLUTION_PATH = "src/tsp_solution.png"
 
 
 def _handle_tsp_solve(
@@ -77,7 +75,6 @@ with gr.Blocks() as tsp_page:
     gr.Markdown(
         '''
         This space displays the solution to the TSP problem.
-
         ## How to use this Space?
         - Upload a '.tsp' file from tsplib .
         - The images of the TSP problem and solution will be shown after you click the solve button.
@@ -102,13 +99,13 @@ with gr.Blocks() as tsp_page:
             )
         with gr.Column(scale=4):
             tsp_problem_img = gr.Image(
-                value="media/tsp_problem.png", 
+                value=TSP_PROBLEM_PATH, 
                 type="filepath", 
                 label="TSP Problem", 
             )
         with gr.Column(scale=4):
             tsp_solution_img = gr.Image(
-                value="media/tsp_solution.png", 
+                value=TSP_SOLUTION_PATH, 
                 type="filepath", 
                 label="TSP Solution", 
             )
@@ -141,9 +138,5 @@ with gr.Blocks() as tsp_page:
     )
 
 
-app = FastAPI()
-app = gr.mount_gradio_app(app, tsp_page, path="/")
-
-
-# if __name__ == "__main__":
-#     uvicorn.run(app, host="0.0.0.0", port=7860)
+if __name__ == "__main__":
+    tsp_page.launch(debug = True)

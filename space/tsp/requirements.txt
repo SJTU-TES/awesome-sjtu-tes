@@ -2,3 +2,4 @@ gradio
 data4co
 matplotlib
 fastapi
+aiohttp
