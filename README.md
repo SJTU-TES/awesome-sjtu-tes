@@ -123,7 +123,7 @@ The ``stable-diffusion-v1-5`` checkpoint was initialized with the weights of the
 
 #### 2.1.1 ⭐Pygmtools [![GitHub stars](https://img.shields.io/github/stars/Thinklab-SJTU/pygmtools?style=social&label=Star&maxAge=8640)](https://GitHub.com/Thinklab-SJTU/pygmtools/) 
 
-``pygmtools``, **Python Graph Matching Tools, provides graph matching solvers in Python.** To make researchers' lives easier, pygmtools support various solvers (``linear``, ``quadratic``, ``multi-graph``, ``neural``), various backends (``numpy``, ``pytorch``, ``jittor``, ``paddle``, ``tensorflow``, ``mindspore``). Also, pygmtools is deep-learning-friendly, whose operations are designed to best preserve the gradient during computation and batched operations support for the best performance. [paper](https://jmlr.org/papers/volume25/23-0572/23-0572.pdf), [code](https://github.com/Thinklab-SJTU/pygmtools), [pretrained](https://huggingface.co/heatingma/pygmtools)
+``pygmtools``, **Python Graph Matching Tools, provides graph matching solvers in Python.** To make researchers' lives easier, pygmtools support various solvers (``linear``, ``quadratic``, ``multi-graph``, ``neural``), various backends (``numpy``, ``pytorch``, ``jittor``, ``paddle``, ``tensorflow``, ``mindspore``). Also, pygmtools is deep-learning-friendly, whose operations are designed to best preserve the gradient during computation and batched operations support for the best performance. [paper](https://jmlr.org/papers/volume25/23-0572/23-0572.pdf), [code](https://github.com/Thinklab-SJTU/pygmtools), [pretrained](https://huggingface.co/heatingma/pygmtools), [space](https://huggingface.co/spaces/SJTU-TES/Graph-Match)
 
 <details>
 <summary>Click to view examples we have implemented</summary>
