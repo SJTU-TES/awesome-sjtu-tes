@@ -46,9 +46,10 @@ def handle_tsp_solve(
 ):
     try:
         message = _handle_tsp_solve(file_path, norm)
+        return message
     except Exception as e:
         message = str(e)
-    return message
+        return message, TSP_PROBLEM_PATH, TSP_SOLUTION_PATH
 
 
 def handle_tsp_clear():

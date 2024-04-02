@@ -21,11 +21,12 @@ def _handle_mis_solve(file_path: str):
     shutil.move(file_path, GPICKLE_PATH)
     start_time = time.time()
     solver = KaMISSolver()
-    try:
-        solver.solve("tmp")
-    except:
-        solver.recompile_kamis()
-        solver.solve("tmp")
+    # try:
+    #     solver.solve("tmp")
+    # except:
+    #     solver.recompile_kamis()
+    #     solver.solve("tmp")
+    solver.solve("tmp")
     solved_time = time.time() - start_time
     draw_mis_problem(
         save_path=MIS_PROBLEM_PATH,
@@ -45,9 +46,10 @@ def _handle_mis_solve(file_path: str):
 def handle_mis_solve(file_path: str):
     try:
         message = _handle_mis_solve(file_path)
+        return message
     except Exception as e:
         message = str(e)
-    return message
+        return message, MIS_PROBLEM_PATH, MIS_SOLUTION_PATH
 
 
 def handle_mis_clear():
