@@ -15,7 +15,11 @@ We mark work contributed by **SJTU** with ⭐.
 	<td>&emsp;<a href=#text2video>1.2 Text2Video</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#deepfake>1.3 DeepFake</a></td>
+	<td>&emsp;<a href=#text2img>1.3 Img2Text</a></td>
+	<td>&emsp;<a href=#text2video>1.4 Img2Img</a></td>
+</tr>
+<tr>
+	<td>&emsp;<a href=#deepfake>1.5 DeepFake</a></td>
 </tr>
 
 
@@ -115,9 +119,59 @@ The ``stable-diffusion-v1-5`` checkpoint was initialized with the weights of the
 
 </details>
 
+
+### [Img2Text](#content)
+
+#### 1.3.1 BLIP-2 
+
+[![Static Badge](https://img.shields.io/badge/arxiv-paper-blue)](https://arxiv.org/pdf/2301.12597.pdf)
+[![Static Badge](https://img.shields.io/badge/github-code-orange)](https://github.com/salesforce/LAVIS/tree/main/projects/blip2)
+[![Static Badge](https://img.shields.io/badge/hugging_face-pretrained-purple)](https://huggingface.co/Salesforce/blip2-opt-2.7b/tree/main)
+[![Static Badge](https://img.shields.io/badge/sjtu_tes-repro-green)](https://github.com/SJTU-TES/repro-Blip2)
+[![GitHub stars](https://img.shields.io/github/stars/salesforce/LAVIS)](https://github.com/salesforce/LAVIS/) 
+
+``BLIP-2``, **Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models**, BLIP-2 beats Flamingo on zero-shot VQAv2 (65.0 vs 56.3), establishing new state-of-the-art on zero-shot captioning (on NoCaps 121.6 CIDEr score vs previous best 113.2). Equipped with powerful LLMs (e.g. OPT, FlanT5), BLIP-2 also unlocks the new zero-shot instructed vision-to-language generation capabilities for various interesting applications!
+
+
+<details>
+<summary>Click to view examples we have implemented</summary>
+
+<div><img src="https://ts1.cn.mm.bing.net/th/id/R-C.75eb2f4b2ba18ad45bef900cb84f1afa?rik=0ypFQ%2fHNlRZomQ&riu=http%3a%2f%2fyouimg1.c-ctrip.com%2ftarget%2ftg%2f551%2f901%2f988%2fb6c0b42fab064d0ba93e6d8160b8a799.jpg&ehk=1vNUtkCQznGRxCgjJrxgSZtOO7xgpxHCQviI9GNSuiQ%3d&risl=&pid=ImgRaw&r=0" width=100% height=80%></div>
+
+- "Question: what is the main elements in the picture? "
+- "Answer: the eiffel tower"
+
+</details>
+
+### [Img2Img](#content)
+
+#### 1.4.1 Stable Diffusion v2 
+[![Static Badge](https://img.shields.io/badge/arxiv-paper-blue)](https://arxiv.org/pdf/2202.00512.pdf)
+[![Static Badge](https://img.shields.io/badge/github-code-orange)](https://github.com/Stability-AI/stablediffusion)
+[![Static Badge](https://img.shields.io/badge/hugging_face-pretrained-purple)](https://huggingface.co/stabilityai/stable-diffusion-2/tree/main)
+[![Static Badge](https://img.shields.io/badge/sjtu_tes-repro-green)](https://github.com/SJTU-TES/repro-stable-diffusion-v2)
+[![GitHub stars](https://img.shields.io/github/stars/Stability-AI/stablediffusion)](https://github.com/Stability-AI/stablediffusion/) 
+
+``Stable Diffusion v2``, **high-resolution image synthesis with latent diffusion models**, This stable-diffusion-2 model is resumed from stable-diffusion-2-base (512-base-ema.ckpt) and trained for 150k steps using a v-objective on the same dataset. 
+
+
+<details>
+<summary>Click to view examples we have implemented</summary>
+
+<div><img src="docs/examples/sd2input.jpg" width=100% height=80%></div>
+
+- ((two)) ((dogs)) in the picture, ((nature)), (((beauty))), (((smooth)))，white，Highest quality
+
+<div><img src="docs/examples/sd2output.jpg" width=100% height=80%></div>
+
+
+</details>
+
+
+
 ### [DeepFake](#content)
 
-#### 1.3.1 FaceSwap 
+#### 1.5.1 FaceSwap 
 
 [![Static Badge](https://img.shields.io/badge/website-url-red)](https://faceswap.dev/)
 [![Static Badge](https://img.shields.io/badge/github-code-orange)](https://github.com/deepfakes/faceswap)
@@ -125,7 +179,7 @@ The ``stable-diffusion-v1-5`` checkpoint was initialized with the weights of the
 
 ``FaceSwap``, **a tool that utilizes deep learning to recognize and swap faces in pictures and videos.** FaceSwap supports various operating systems(``windows``, ``linux``, ``macos``) and offers powerful face swapping capabilities, utilizing a modern GPU with CUDA support for optimal performance. With FaceSwap, users can gather photos and videos, extract faces from them, train a model based on the extracted faces, and then seamlessly swap faces in your sources using the trained model. 
 
-#### 1.3.2 Roop 
+#### 1.5.2 Roop 
 
 [![Static Badge](https://img.shields.io/badge/github-code-orange)](https://github.com/s0md3v/roop)
 [![Static Badge](https://img.shields.io/badge/sjtu_tes-repro-green)](https://github.com/SJTU-TES/repro-roop)
