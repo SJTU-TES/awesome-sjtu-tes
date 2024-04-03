@@ -289,6 +289,6 @@ The ``stable-diffusion-v1-5`` checkpoint was initialized with the weights of the
 ## [Tool](#content)
 
 ### [ClearAgenda Scheduler](#content)
-#### 6.1.1 ⭐ClearAgenda Scheduler [![GitHub stars](https://img.shields.io/github/stars/zhouzhouzhouxiao/wav2com?style=social&label=Star&maxAge=8640)](https://github.com/zhouzhouzhouxiao/ClearAgendaScheduler) 
+#### 6.1.1 ⭐ClearAgenda Scheduler [![GitHub stars](https://img.shields.io/github/stars/zhouzhouzhouxiao/ClearAgenda-Scheduler?style=social&label=Star&maxAge=8640)](https://github.com/zhouzhouzhouxiao/ClearAgenda-Scheduler) 
 
-``ClearAgenda Scheduler``, **A simple daily management software based on tk, built for college students. It is very convenient for handling periodic events such as courses and visual schedules.**  [code](https://github.com/zhouzhouzhouxiao/ClearAgendaScheduler)
+``ClearAgenda Scheduler``, **A simple daily management software based on tk, built for college students. It is very convenient for handling periodic events such as courses and visual schedules.**  [code](https://github.com/zhouzhouzhouxiao/ClearAgenda-Scheduler)
