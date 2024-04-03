@@ -36,7 +36,7 @@ We mark work contributed by **SJTU** with ⭐.
 	<td>&emsp;<a href=#web-scraping>3.2 Web Scraping</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#cpp-oline>3.3 Cpp Oline</a></td>
+	<td>&emsp;<a href=#cpp-online>3.3 Cpp Online</a></td>
 </tr>
 
 <tr><td colspan="2"><a href="#motion">4. Motion</a></td></tr> 
@@ -198,7 +198,7 @@ The ``stable-diffusion-v1-5`` checkpoint was initialized with the weights of the
 <img src="docs/examples/VidFecth.png" width="80%" alt="" />
 </details>
 
-### [Cpp Oline](#content)
+### [Cpp Online](#content)
 
 #### 3.3.1 ⭐web-cpp [![GitHub stars](https://img.shields.io/github/stars/zhouzhouzhouxiao/web-cpp?style=social&label=Star&maxAge=8640)](https://GitHub.com/zhouzhouzhouxiao/web-cpp/) 
 
