@@ -54,6 +54,10 @@ We mark work contributed by **SJTU** with ⭐.
 	<td>&emsp;<a href=#iot-security>5.2 IOT Security</a></td>
 </tr>
 
+<tr><td colspan="2"><a href="#tool">6. Tool</a></td></tr> 
+<tr>
+	<td>&emsp;<a href=#clearAgenda-scheduler>6.1 ClearAgenda Scheduler</a></td>
+</tr>
 
 </table>
 
@@ -280,3 +284,11 @@ The ``stable-diffusion-v1-5`` checkpoint was initialized with the weights of the
 #### 5.2.1 ⭐WAV2COM [![GitHub stars](https://img.shields.io/github/stars/faiimea/wav2com?style=social&label=Star&maxAge=8640)](https://github.com/faiimea/wav2com) 
 
 ``WAV2COM``, **Your Microphone Array Retains Your Identity: A Robust Voice Liveness Detection System for Smart Speakers**  [code](https://github.com/faiimea/wav2com)
+
+
+## [Tool](#content)
+
+### [ClearAgenda Scheduler](#content)
+#### 6.1.1 ⭐ClearAgenda Scheduler [![GitHub stars](https://img.shields.io/github/stars/zhouzhouzhouxiao/wav2com?style=social&label=Star&maxAge=8640)](https://github.com/zhouzhouzhouxiao/ClearAgendaScheduler) 
+
+``ClearAgenda Scheduler``, **A simple daily management software based on tk, built for college students. It is very convenient for handling periodic events such as courses and visual schedules.**  [code】(https://github.com/zhouzhouzhouxiao/ClearAgendaScheduler)
