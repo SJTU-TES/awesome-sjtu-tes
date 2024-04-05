@@ -2,11 +2,13 @@
 <img src="docs/sjtutes2.png" alt="logo" width="750"/>
 </div>
 
+## [Introduction](#introduction)
+
 **SJTU-TES**, SJTU Technology Engage Square, is an inclusive platform that aims to replicate cutting-edge technologies from diverse fields, enabling beginners to gain practical experience through hands-on projects and activities. 
 
-### We mark work contributed by **SJTU-TES** with ⭐.
+We mark work contributed by **SJTU-TES** with ⭐.
 
-### We primarily use the following icons to indicate the organization of each repository.
+We primarily use the following icons to indicate the organization of each repository.
 
 **Paper Link** &emsp; ![Static Badge](https://img.shields.io/badge/xxxx-paper-blue)
 
