@@ -10,32 +10,32 @@ We mark work contributed by **SJTU-TES** with ⭐.
 
 We primarily use the following icons to indicate the organization of each repository.
 
-**Paper Link** &emsp; ![Static Badge](https://img.shields.io/badge/xxxx-paper-blue)
+**Paper Link** ![Static Badge](https://img.shields.io/badge/xxxx-paper-blue)
 
 The corresponding published paper of the work, where "xxxx" refers to the name of the conference or journal in which it was published, and "arXiv" denotes the preprint version.
 
-**Github Link** &emsp; ![Static Badge](https://img.shields.io/badge/github-code-orange)
+**Github Link** ![Static Badge](https://img.shields.io/badge/github-code-orange)
 
 The corresponding github link of the work.
 
-**Pretrained Link** &emsp; ![Static Badge](https://img.shields.io/badge/xxxx-pretrained-purple)
+**Pretrained Link** ![Static Badge](https://img.shields.io/badge/xxxx-pretrained-purple)
 
 The storage location of the pre-trained files for this repository (usually hosted on [Hugging Face](https://huggingface.co/) or [Google Drive](https://drive.google.com/)).
 
-**Website Link** &emsp; ![Static Badge](https://img.shields.io/badge/website-url-red)
+**Website Link** ![Static Badge](https://img.shields.io/badge/website-url-red)
 
 The webpage address for this work.
 
-**⭐ Dataset Link** &emsp; ![Static Badge](https://img.shields.io/badge/sjtu_tes-dataset-brightgreen)
+**⭐ Dataset Link** ![Static Badge](https://img.shields.io/badge/sjtu_tes-dataset-brightgreen)
 
 The dataset included with the work itself, as well as the datasets provided by the SJTU-TES team that are relevant to this work.
 
-**⭐ Space Link** &emsp; ![Static Badge](https://img.shields.io/badge/sjtu_tes-space-yellow)
+**⭐ Space Link** ![Static Badge](https://img.shields.io/badge/sjtu_tes-space-yellow)
 
 
 The reproduction of certain CPU-based work using the free space service provided by Hugging Face. You can visit the corresponding space to experience some practical applications of this work.
 
-**⭐ Repro Link** &emsp; ![Static Badge](https://img.shields.io/badge/sjtu_tes-repro-green)
+**⭐ Repro Link** ![Static Badge](https://img.shields.io/badge/sjtu_tes-repro-green)
 
 There are some repositories that can only be run on GPUs (taking several hours or even days if run on CPUs), making it impractical to use the free space service provided by Hugging Face. Therefore, we provide reproducible repositories (including instructive README.md files) to address this limitation.
 
