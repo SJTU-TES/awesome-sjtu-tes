@@ -4,7 +4,39 @@
 
 **SJTU-TES**, SJTU Technology Engage Square, is an inclusive platform that aims to replicate cutting-edge technologies from diverse fields, enabling beginners to gain practical experience through hands-on projects and activities. 
 
-We mark work contributed by **SJTU** with ⭐.
+### We mark work contributed by **SJTU-TES** with ⭐.
+
+### We primarily use the following icons to indicate the organization of each repository.
+
+**Paper Link** &emsp; ![Static Badge](https://img.shields.io/badge/xxxx-paper-blue)
+
+The corresponding published paper of the work, where "xxxx" refers to the name of the conference or journal in which it was published, and "arXiv" denotes the preprint version.
+
+**Github Link** &emsp; ![Static Badge](https://img.shields.io/badge/github-code-orange)
+
+The corresponding github link of the work.
+
+**Pretrained Link** &emsp; ![Static Badge](https://img.shields.io/badge/xxxx-pretrained-purple)
+
+The storage location of the pre-trained files for this repository (usually hosted on [Hugging Face](https://huggingface.co/) or [Google Drive](https://drive.google.com/)).
+
+**Website Link** &emsp; ![Static Badge](https://img.shields.io/badge/website-url-red)
+
+The webpage address for this work.
+
+**⭐ Dataset Link** &emsp; ![Static Badge](https://img.shields.io/badge/sjtu_tes-dataset-brightgreen)
+
+The dataset included with the work itself, as well as the datasets provided by the SJTU-TES team that are relevant to this work.
+
+**⭐ Space Link** &emsp; ![Static Badge](https://img.shields.io/badge/sjtu_tes-space-yellow)
+
+
+The reproduction of certain CPU-based work using the free space service provided by Hugging Face. You can visit the corresponding space to experience some practical applications of this work.
+
+**⭐ Repro Link** &emsp; ![Static Badge](https://img.shields.io/badge/sjtu_tes-repro-green)
+
+There are some repositories that can only be run on GPUs (taking several hours or even days if run on CPUs), making it impractical to use the free space service provided by Hugging Face. Therefore, we provide reproducible repositories (including instructive README.md files) to address this limitation.
+
 
 ## [Content](#content)
 
@@ -80,7 +112,7 @@ We mark work contributed by **SJTU** with ⭐.
 [![Static Badge](https://img.shields.io/badge/CVPR-paper-blue)](https://openaccess.thecvf.com/content/CVPR2022/papers/Rombach_High-Resolution_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2022_paper.pdf)
 [![Static Badge](https://img.shields.io/badge/github-code-orange)](https://github.com/CompVis/stable-diffusion)
 [![Static Badge](https://img.shields.io/badge/hugging_face-pretrained-purple)](https://huggingface.co/runwayml/stable-diffusion-v1-5)
-[![Static Badge](https://img.shields.io/badge/sjtu_tes-repro-green)](https://huggingface.co/runwayml/stable-diffusion-v1-5)
+[![Static Badge](https://img.shields.io/badge/sjtu_tes-repro-green)]()
 [![GitHub stars](https://img.shields.io/github/stars/CompVis/stable-diffusion?style=social&label=Star&maxAge=8640)](https://GitHub.com/CompVis/stable-diffusion/) 
 
 The ``stable-diffusion-v1-5`` checkpoint was initialized with the weights of the ``stable-diffusion-v1-2`` checkpoint and subsequently fine-tuned on 595k steps at resolution 512x512 on ``laion-aesthetics v2 5+`` and 10% dropping of the text-conditioning to improve classifier-free guidance sampling.
