@@ -16,7 +16,8 @@ def _handle_roop_solve(
         raise gr.Error("Please upload source video!")
     if img_path is None:
         raise gr.Error("Please upload target image!")
-    
+    if not os.path.exists("media"):
+        os.mkdir("media")
     start_time = time.time()
     command = f"python run.py -t {video_path} -s {img_path} -o {ROOP_OUTPUT_VIDEO_PATH}"
     os.system(command)
