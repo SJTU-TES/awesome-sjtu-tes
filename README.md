@@ -216,7 +216,6 @@ The ``stable-diffusion-v1-5`` checkpoint was initialized with the weights of the
 #### 1.5.2 Roop 
 
 [![Static Badge](https://img.shields.io/badge/github-code-orange)](https://github.com/s0md3v/roop)
-[![Static Badge](https://img.shields.io/badge/sjtu_tes-repro-green)](https://github.com/SJTU-TES/repro-roop)
 [![Static Badge](https://img.shields.io/badge/sjtu_tes-space-yellow)](https://huggingface.co/spaces/SJTU-TES/Roop)
 [![Static Badge](https://img.shields.io/badge/sjtu_tes-dataset-brightgreen)](https://huggingface.co/datasets/SJTU-TES/Roop)
 [![GitHub stars](https://img.shields.io/github/stars/s0md3v/roop?style=social&label=Star&maxAge=8640)](https://GitHub.com/s0md3v/roop/) 
