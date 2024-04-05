@@ -136,7 +136,7 @@ The ``stable-diffusion-v1-5`` checkpoint was initialized with the weights of the
 <details>
 <summary>Click to view examples we have implemented</summary>
 
-<div><img src="https://ts1.cn.mm.bing.net/th/id/R-C.75eb2f4b2ba18ad45bef900cb84f1afa?rik=0ypFQ%2fHNlRZomQ&riu=http%3a%2f%2fyouimg1.c-ctrip.com%2ftarget%2ftg%2f551%2f901%2f988%2fb6c0b42fab064d0ba93e6d8160b8a799.jpg&ehk=1vNUtkCQznGRxCgjJrxgSZtOO7xgpxHCQviI9GNSuiQ%3d&risl=&pid=ImgRaw&r=0" width=100% height=80%></div>
+<div><img src="docs/examples/eiffel.png" width=50%></div>
 
 - "Question: what is the main elements in the picture? "
 - "Answer: the eiffel tower"
@@ -158,11 +158,11 @@ The ``stable-diffusion-v1-5`` checkpoint was initialized with the weights of the
 <details>
 <summary>Click to view examples we have implemented</summary>
 
-<div><img src="docs/examples/sd2input.jpg" width=100% height=80%></div>
-
 - ((two)) ((dogs)) in the picture, ((nature)), (((beauty))), (((smooth)))，white，Highest quality
-
-<div><img src="docs/examples/sd2output.jpg" width=100% height=80%></div>
+<div>
+	<img src="docs/examples/sd2input.jpg" width=45%>
+	<img src="docs/examples/sd2output.jpg" width=45%>
+</div>
 
 
 </details>
