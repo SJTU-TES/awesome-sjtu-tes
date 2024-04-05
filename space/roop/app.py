@@ -55,13 +55,14 @@ with gr.Blocks() as ged_page:
 
     gr.Markdown(
         '''
-        This space displays the solution to the Graph Edit Distance problem.
+        This space displays how to perform face swapping.
         ## How to use this Space?
-        - Upload two '.gexf' files.
-        - The images of the GED problem and solution will be shown after you click the solve button.
+        - Upload a video, preferably with a duration of less than 5 seconds.
+        - Upload a photo of the person you wish to swap with.
+        - You will receive the result of the face swap after 5-10 minutes.
         - Click the 'clear' button to clear all the files.
         ## Examples
-        - You can get the test examples from our [GED Dataset Repo.](https://huggingface.co/datasets/SJTU-TES/Graph-Edit-Distance) 
+        - You can get the test examples from our [Roop Dataset Repo.](https://huggingface.co/datasets/SJTU-TES/Roop) 
         '''
     )
 
