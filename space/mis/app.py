@@ -21,12 +21,11 @@ def _handle_mis_solve(file_path: str):
     shutil.move(file_path, GPICKLE_PATH)
     start_time = time.time()
     solver = KaMISSolver()
-    # try:
-    #     solver.solve("tmp")
-    # except:
-    #     solver.recompile_kamis()
-    #     solver.solve("tmp")
-    solver.solve("tmp")
+    try:
+        solver.solve("tmp")
+    except:
+        solver.recompile_kamis()
+        solver.solve("tmp")
     solved_time = time.time() - start_time
     draw_mis_problem(
         save_path=MIS_PROBLEM_PATH,
@@ -81,6 +80,8 @@ with gr.Blocks() as mis_page:
         - Upload a '.gpickle' file.
         - The images of the MIS problem and solution will be shown after you click the solve button.
         - Click the 'clear' button to clear all the files.
+        ## Examples
+        - You can get the test examples from our [MIS Dataset Repo.](https://huggingface.co/datasets/SJTU-TES/MIS) 
         '''
     )
 

@@ -1,0 +1,13 @@
+gradio==3.40.0
+onnxruntime==1.17.1
+tensorflow==2.15.0
+customtkinter==5.2.0
+tkinterdnd2==0.3.0
+opencv-python==4.8.0.74
+insightface==0.7.3
+numpy==1.24.3
+opennsfw2==0.9.2
+ffmpeg
+tk==0.1.0
+tkinterdnd2-universal==1.7.3
+onnxruntime-gpu==1.17.1
