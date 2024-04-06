@@ -8,7 +8,7 @@ In recent years, technology has been increasingly subdivided into numerous field
 
 In order to alleviate the impact of rising barriers in various domains on beginners, and to enable them to quickly experiment and set up application environments, we have developed the **``SJTU-TES``** (Shanghai Jiao Tong University Technology Engagement Square) platform. 
 
-Through this platform, users can gain insights into cutting-edge research across different domains and conveniently establish development or experimental environments using our interactive space **``sjtu_tes space``**, reproducible repositories **``sjtu_tes repro.``**, and testing datasets **``sjtu_tes repro.``**.
+Through this platform, users can gain insights into cutting-edge research across different domains and conveniently establish development or experimental environments using our interactive space ![Static Badge](https://img.shields.io/badge/sjtu_tes-space-yellow), reproducible repositories ![Static Badge](https://img.shields.io/badge/sjtu_tes-repro-green), and testing datasets ![Static Badge](https://img.shields.io/badge/sjtu_tes-dataset-brightgreen).
 
 🔥 We mark work contributed by **SJTU-TES** with ⭐.
 
