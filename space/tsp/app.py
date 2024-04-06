@@ -4,9 +4,9 @@ import gradio as gr
 from data4co import TSPConcordeSolver, draw_tsp_problem, draw_tsp_solution
 
 
-TSP_DEFAULT_PATH = "src/tsp_default.png"
-TSP_PROBLEM_PATH = "src/tsp_problem.png"
-TSP_SOLUTION_PATH = "src/tsp_solution.png"
+TSP_DEFAULT_PATH = "media/tsp_default.png"
+TSP_PROBLEM_PATH = "media/tsp_problem.png"
+TSP_SOLUTION_PATH = "media/tsp_solution.png"
 
 
 def _handle_tsp_solve(
@@ -77,11 +77,9 @@ with gr.Blocks() as tsp_page:
         '''
         This space displays the solution to the TSP problem.
         ## How to use this Space?
-        - Upload a '.tsp' file.
+        - Upload a '.tsp' file from tsplib .
         - The images of the TSP problem and solution will be shown after you click the solve button.
         - Click the 'clear' button to clear all the files.
-        ## Examples
-        - You can get the test examples from our [TSP Dataset Repo.](https://huggingface.co/datasets/SJTU-TES/TSP) 
         '''
     )
 

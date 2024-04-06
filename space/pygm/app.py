@@ -4,9 +4,9 @@ import gradio as gr
 from pygm_rrwm import pygm_rrwm
 
 
-PYGM_IMG_DEFAULT_PATH = "src/pygm_default.png"
-PYGM_SOLUTION_1_PATH = "src/pygm_image_1.png"
-PYGM_SOLUTION_2_PATH = "src/pygm_image_2.png"
+PYGM_IMG_DEFAULT_PATH = "media/pygm_default.png"
+PYGM_SOLUTION_1_PATH = "media/pygm_image_1.png"
+PYGM_SOLUTION_2_PATH = "media/pygm_image_2.png"
 
 
 def _handle_pygm_solve(
