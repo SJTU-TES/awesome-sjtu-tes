@@ -376,7 +376,9 @@ The ``stable-diffusion-v1-5`` checkpoint was initialized with the weights of the
 
 #### 4.1.1 Transmomo 
 
+[![Static Badge](https://img.shields.io/badge/CVPR-paper-blue)](https://arxiv.org/pdf/2003.14401.pdf)
 [![Static Badge](https://img.shields.io/badge/github-code-orange)](https://github.com/yzhq97/transmomo.pytorch)
+[![Static Badge](https://img.shields.io/badge/hugging_face-pretrained-purple)](https://huggingface.co/faiimea/transmomo_enc)
 [![Static Badge](https://img.shields.io/badge/sjtu_tes-space-yellow)](https://huggingface.co/spaces/SJTU-TES/TMM)
 [![GitHub stars](https://img.shields.io/github/stars/yzhq97/transmomo.pytorch?style=social&label=Star&maxAge=8640)](https://GitHub.com/yzhq97/transmomo.pytorch) 
 
@@ -390,7 +392,10 @@ The ``stable-diffusion-v1-5`` checkpoint was initialized with the weights of the
 
 #### 4.1.2 EDN 
 
+
+[![Static Badge](https://img.shields.io/badge/ICCV-paper-blue)](https://arxiv.org/pdf/1808.07371.pdf)
 [![Static Badge](https://img.shields.io/badge/github-code-orange)](https://github.com/carolineec/EverybodyDanceNow)
+[![Static Badge](https://img.shields.io/badge/hugging_face-pretrained-purple)](https://huggingface.co/SJTU-TES/Everybody_Dance_Now)
 [![GitHub stars](https://img.shields.io/github/stars/carolineec/EverybodyDanceNow?style=social&label=Star&maxAge=8640)](https://github.com/carolineec/EverybodyDanceNow) 
 
 ``EverybodyDanceNow``, **A simple method for "do as I do" motion transfer:** Given a source video of a person dancing, we can transfer that performance to a novel (amateur) target after only a few minutes of the target subject performing standard moves.[code]()
@@ -405,8 +410,10 @@ The ``stable-diffusion-v1-5`` checkpoint was initialized with the weights of the
 
 #### 4.2.1 Openpose 
 
+[![Static Badge](https://img.shields.io/badge/arxiv-paper-blue)](https://arxiv.org/pdf/1812.08008.pdf)
 [![Static Badge](https://img.shields.io/badge/github-code-orange)](https://github.com/Hzzone/pytorch-openpose)
 [![Static Badge](https://img.shields.io/badge/sjtu_tes-space-yellow)](https://huggingface.co/spaces/SJTU-TES/OpenPose)
+[![Static Badge](https://img.shields.io/badge/hugging_face-pretrained-purple)](https://huggingface.co/faiimea/openpose)
 [![GitHub stars](https://img.shields.io/github/stars/Hzzone/pytorch-openpose?style=social&label=Star&maxAge=8640)](https://github.com/Hzzone/pytorch-openpose) 
 
 ``Openpose``, **Real-time multi-person keypoint detection library for pose estimation** 2D real-time multi-person keypoint detection.We provide pytorch implementation of openpose including Body and Hand Pose Estimation.
@@ -420,7 +427,10 @@ The ``stable-diffusion-v1-5`` checkpoint was initialized with the weights of the
 
 #### 4.3.1 RobustVideoMatting 
 
+[![Static Badge](https://img.shields.io/badge/arxiv-paper-blue)](https://arxiv.org/pdf/2108.11515.pdf)
 [![Static Badge](https://img.shields.io/badge/github-code-orange)](https://github.com/PeterL1n/RobustVideoMatting)
+[![Static Badge](https://img.shields.io/badge/sjtu_tes-space-yellow)](https://huggingface.co/spaces/SJTU-TES/VideoMatting)
+[![Static Badge](https://img.shields.io/badge/hugging_face-pretrained-purple)](https://huggingface.co/SJTU-TES/RobustVideoMatting)
 [![GitHub stars](https://img.shields.io/github/stars/PeterL1n/RobustVideoMatting?style=social&label=Star&maxAge=8640)](https://github.com/PeterL1n/RobustVideoMatting) 
 
 ``RVM``, **Robust High-Resolution Video Matting with Temporal Guidance** RVM is specifically designed for robust human video matting. Unlike existing neural models that process frames as independent images, RVM uses a recurrent neural network to process videos with temporal memory.
@@ -456,14 +466,19 @@ The ``stable-diffusion-v1-5`` checkpoint was initialized with the weights of the
 
 #### 5.1.3 ⭐UAP 
 
+[![Static Badge](https://img.shields.io/badge/cvpr-paper-blue)](https://openaccess.thecvf.com/content/CVPR2022/papers/Peng_Fingerprinting_Deep_Neural_Networks_Globally_via_Universal_Adversarial_Perturbations_CVPR_2022_paper.pdf)
 [![Static Badge](https://img.shields.io/badge/github-code-orange)](https://github.com/faiimea/UAP)
+[![Static Badge](https://img.shields.io/badge/hugging_face-pretrained-purple)](https://huggingface.co/faiimea/uap)
 [![GitHub stars](https://img.shields.io/github/stars/faiimea/UAP?style=social&label=Star&maxAge=8640)](https://github.com/faiimea/UAP) 
 
 ``UAP``, **Fingerprinting Deep Neural Networks Globally via Universal Adversarial Perturbations"** a novel and practical mechanism which enables the service provider to verify whether a suspect model is stolen from the victim model via model extraction attacks.
 
 ### [IOT Security](#content)
 
+#### 5.2.1 ⭐WAV2COM
+[![Static Badge](https://img.shields.io/badge/usenix-paper-blue)](https://yan4meng.github.io/files/paper_security_22_arrayid.pdf)
 [![Static Badge](https://img.shields.io/badge/github-code-orange)](https://github.com/faiimea/wav2com)
+[![Static Badge](https://img.shields.io/badge/hugging_face-pretrained-purple)](https://huggingface.co/faiimea/wav2com)
 [![GitHub stars](https://img.shields.io/github/stars/faiimea/wav2com?style=social&label=Star&maxAge=8640)](https://github.com/faiimea/wav2com) 
 
 ``WAV2COM``, **Your Microphone Array Retains Your Identity: A Robust Voice Liveness Detection System for Smart Speakers**
