@@ -476,6 +476,7 @@ The ``stable-diffusion-v1-5`` checkpoint was initialized with the weights of the
 ### [IOT Security](#content)
 
 #### 5.2.1 ⭐WAV2COM
+
 [![Static Badge](https://img.shields.io/badge/usenix-paper-blue)](https://yan4meng.github.io/files/paper_security_22_arrayid.pdf)
 [![Static Badge](https://img.shields.io/badge/github-code-orange)](https://github.com/faiimea/wav2com)
 [![Static Badge](https://img.shields.io/badge/hugging_face-pretrained-purple)](https://huggingface.co/faiimea/wav2com)
@@ -488,9 +489,13 @@ The ``stable-diffusion-v1-5`` checkpoint was initialized with the weights of the
 ## [Tool](#content)
 
 ### [ClearAgenda Scheduler](#content)
-#### 6.1.1 ⭐ClearAgenda Scheduler [![GitHub stars](https://img.shields.io/github/stars/zhouzhouzhouxiao/ClearAgenda-Scheduler?style=social&label=Star&maxAge=8640)](https://github.com/zhouzhouzhouxiao/ClearAgenda-Scheduler) 
+#### 6.1.1 ⭐ClearAgenda Scheduler 
 
-``ClearAgenda Scheduler``, **A simple daily management software based on tk, built for college students. It is very convenient for handling periodic events such as courses and visual schedules.**  [code](https://github.com/zhouzhouzhouxiao/ClearAgenda-Scheduler)
+[![Static Badge](https://img.shields.io/badge/github-code-orange)]((https://github.com/zhouzhouzhouxiao/ClearAgenda-Scheduler))
+[![GitHub stars](https://img.shields.io/github/stars/zhouzhouzhouxiao/ClearAgenda-Scheduler?style=social&label=Star&maxAge=8640)](https://github.com/zhouzhouzhouxiao/ClearAgenda-Scheduler) 
+
+``ClearAgenda Scheduler``, **A simple daily management software based on tk, built for college students. It is very convenient for handling periodic events such as courses and visual schedules.** 
+
 <details>
 <summary>Click to view examples</summary>
 
