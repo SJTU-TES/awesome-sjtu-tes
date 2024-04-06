@@ -11,7 +11,9 @@ In order to alleviate the impact of rising barriers in various domains on beginn
 Through this platform, users can gain insights into cutting-edge research across different domains and conveniently establish development or experimental environments using our interactive space **``sjtu_tes space``**, reproducible repositories **``sjtu_tes repro.``**, and testing datasets **``sjtu_tes repro.``**.
 
 🔥 We mark work contributed by **SJTU-TES** with ⭐.
+
 🔥 We have provided a demonstration video of the ``sjtu_tes space`` [here](https://github.com/SJTU-TES/awesome-sjtu-tes-demo).
+
 🔥 We primarily use the following icons to indicate the organization of each repository.
 
 **Paper Link** ![Static Badge](https://img.shields.io/badge/xxxx-paper-blue)
