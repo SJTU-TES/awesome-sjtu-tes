@@ -74,7 +74,7 @@ There are some repositories that can only be run on GPUs (taking several hours o
 	<td>&emsp;<a href=#web-scraping>3.2 Web Scraping</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#cpp-oline>3.3 Cpp Oline</a></td>
+	<td>&emsp;<a href=#cpp-online>3.3 Cpp Online</a></td>
 </tr>
 
 <tr><td colspan="2"><a href="#motion">4. Motion</a></td></tr> 
@@ -92,6 +92,10 @@ There are some repositories that can only be run on GPUs (taking several hours o
 	<td>&emsp;<a href=#iot-security>5.2 IOT Security</a></td>
 </tr>
 
+<tr><td colspan="2"><a href="#tool">6. Tool</a></td></tr> 
+<tr>
+	<td>&emsp;<a href=#clearAgenda-scheduler>6.1 ClearAgenda Scheduler</a></td>
+</tr>
 
 </table>
 
@@ -351,7 +355,7 @@ The ``stable-diffusion-v1-5`` checkpoint was initialized with the weights of the
 <img src="docs/examples/VidFetch.png" width="80%" alt="" />
 </details>
 
-### [Cpp Oline](#content)
+### [Cpp Online](#content)
 
 #### 3.3.1 ⭐web-cpp 
 
@@ -459,9 +463,25 @@ The ``stable-diffusion-v1-5`` checkpoint was initialized with the weights of the
 
 ### [IOT Security](#content)
 
-#### 5.2.1 ⭐WAV2COM 
-
 [![Static Badge](https://img.shields.io/badge/github-code-orange)](https://github.com/faiimea/wav2com)
 [![GitHub stars](https://img.shields.io/github/stars/faiimea/wav2com?style=social&label=Star&maxAge=8640)](https://github.com/faiimea/wav2com) 
 
 ``WAV2COM``, **Your Microphone Array Retains Your Identity: A Robust Voice Liveness Detection System for Smart Speakers**
+
+
+
+## [Tool](#content)
+
+### [ClearAgenda Scheduler](#content)
+#### 6.1.1 ⭐ClearAgenda Scheduler [![GitHub stars](https://img.shields.io/github/stars/zhouzhouzhouxiao/ClearAgenda-Scheduler?style=social&label=Star&maxAge=8640)](https://github.com/zhouzhouzhouxiao/ClearAgenda-Scheduler) 
+
+``ClearAgenda Scheduler``, **A simple daily management software based on tk, built for college students. It is very convenient for handling periodic events such as courses and visual schedules.**  [code](https://github.com/zhouzhouzhouxiao/ClearAgenda-Scheduler)
+<details>
+<summary>Click to view examples</summary>
+
+<div style="display: flex; flex-direction: row;">
+  <img src="docs/examples/ClearAgenda-Scheduler.png" height="350px">
+</div>
+
+</details>
+
