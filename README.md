@@ -393,7 +393,7 @@ The ``stable-diffusion-v1-5`` checkpoint was initialized with the weights of the
 [![Static Badge](https://img.shields.io/badge/hugging_face-pretrained-purple)](https://huggingface.co/SJTU-TES/Everybody_Dance_Now)
 [![GitHub stars](https://img.shields.io/github/stars/carolineec/EverybodyDanceNow?style=social&label=Star&maxAge=8640)](https://github.com/carolineec/EverybodyDanceNow) 
 
-``EverybodyDanceNow``, **A simple method for "do as I do" motion transfer:** Given a source video of a person dancing, we can transfer that performance to a novel (amateur) target after only a few minutes of the target subject performing standard moves.[code]()
+``EverybodyDanceNow``, **A simple method for "do as I do" motion transfer:** Given a source video of a person dancing, we can transfer that performance to a novel (amateur) target after only a few minutes of the target subject performing standard moves.
 
 <details>
 <summary>Click to view details</summary>
