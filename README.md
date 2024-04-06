@@ -380,7 +380,7 @@ The ``stable-diffusion-v1-5`` checkpoint was initialized with the weights of the
 
 <details>
 <summary>Click to view details</summary>
-<img src='https://yzhq97.github.io/assets/transmomo/dance.gif' width='480'/>
+<img src='docs/examples/dance.gif' width='480'/>
 </p>
 </details>
 
