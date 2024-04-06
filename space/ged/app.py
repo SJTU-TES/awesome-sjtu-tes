@@ -4,12 +4,12 @@ import gradio as gr
 from genn_astar import astar
 
 
-GED_IMG_DEFAULT_PATH = "src/ged_default.png"
-GED_SOLUTION_1_PATH = "src/ged_image_1.png"
-GED_SOLUTION_2_PATH = "src/ged_image_2.png"
-GED_SOLUTION_3_PATH = "src/ged_image_3.png"
-GED_SOLUTION_4_PATH = "src/ged_image_4.png"
-GED_SOLUTION_5_PATH = "src/ged_image_5.png"
+GED_IMG_DEFAULT_PATH = "media/ged_default.png"
+GED_SOLUTION_1_PATH = "media/ged_image_1.png"
+GED_SOLUTION_2_PATH = "media/ged_image_2.png"
+GED_SOLUTION_3_PATH = "media/ged_image_3.png"
+GED_SOLUTION_4_PATH = "media/ged_image_4.png"
+GED_SOLUTION_5_PATH = "media/ged_image_5.png"
 
 
 def _handle_ged_solve(
@@ -86,7 +86,7 @@ def convert_image_path_to_bytes(image_path):
 
 
 with gr.Blocks() as ged_page:
-
+    
     gr.Markdown(
         '''
         This space displays the solution to the Graph Edit Distance problem.
