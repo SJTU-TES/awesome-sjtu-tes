@@ -76,6 +76,8 @@ with gr.Blocks() as mis_page:
         - Upload a '.gpickle' file.
         - The images of the MIS problem and solution will be shown after you click the solve button.
         - Click the 'clear' button to clear all the files.
+        ## Examples
+        - You can get the test examples from our [MIS Dataset Repo.](https://huggingface.co/datasets/SJTU-TES/MIS)
         '''
     )
 

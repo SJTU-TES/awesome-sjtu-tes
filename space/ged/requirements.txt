@@ -1,5 +1,5 @@
 gradio
-pygmtools==0.4.3
+pygmtools==0.5.1
 matplotlib
 torch==2.0.0
 torchvision==0.15.1
