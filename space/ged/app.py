@@ -3,6 +3,7 @@ import time
 import shutil
 import gradio as gr
 from genn_astar import astar
+import pygmtools as pygm
 
 
 GED_IMG_DEFAULT_PATH = "media/ged_default.png"
@@ -12,8 +13,6 @@ GED_SOLUTION_3_PATH = "media/ged_image_3.png"
 GED_SOLUTION_4_PATH = "media/ged_image_4.png"
 GED_SOLUTION_5_PATH = "media/ged_image_5.png"
 PRETRAINED_PATH = "best_genn_AIDS700nef_gcn_astar.pt"
-PRETRAINED_TARGET_DIR = "/home/user/.cache/pygmtools"
-PRETRAINED_TARGET_PATH = "/home/user/.cache/pygmtools/best_genn_AIDS700nef_gcn_astar.pt"
 
 
 def _handle_ged_solve(
@@ -26,13 +25,14 @@ def _handle_ged_solve(
         raise gr.Error("Please upload file completely!")
     
     start_time = time.time()
-    if not os.path.exists(PRETRAINED_TARGET_DIR):
-        os.makedirs(PRETRAINED_TARGET_DIR)
-    shutil.move(src=PRETRAINED_PATH, dst=PRETRAINED_TARGET_PATH)
+    dirs = pygm.utils.user_cache_dir("pygmtools")
+    if not os.path.exists(dirs):
+        os.makedirs(dirs)
+    shutil.move(src=PRETRAINED_PATH, dst=os.path.join(dirs, PRETRAINED_PATH))
     astar(
         g1_path=gexf_1_path,
         g2_path=gexf_2_path,
-        output_path="src",
+        output_path="media",
         filename="ged_image"
     )
     solved_time = time.time() - start_time
