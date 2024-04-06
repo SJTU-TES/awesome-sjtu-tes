@@ -4,11 +4,17 @@
 
 ## [Introduction](#introduction)
 
-**SJTU-TES**, SJTU Technology Engage Square, is an inclusive platform that aims to replicate cutting-edge technologies from diverse fields, enabling beginners to gain practical experience through hands-on projects and activities. 
+In recent years, technology has been increasingly subdivided into numerous fields, each of which has witnessed a proliferation of remarkable achievements. However, limited time and resources often confine individuals to focus on only a few domains, or even specific branches within a particular field. 
 
-We mark work contributed by **SJTU-TES** with ⭐.
+In order to alleviate the impact of rising barriers in various domains on beginners, and to enable them to quickly experiment and set up application environments, we have developed the **``SJTU-TES``** (Shanghai Jiao Tong University Technology Engagement Square) platform. 
 
-We primarily use the following icons to indicate the organization of each repository.
+Through this platform, users can gain insights into cutting-edge research across different domains and conveniently establish development or experimental environments using our interactive space **``sjtu_tes space``**, reproducible repositories **``sjtu_tes repro.``**, and testing datasets **``sjtu_tes repro.``**.
+
+🔥 We mark work contributed by **SJTU-TES** with ⭐.
+
+🔥 We have provided a demonstration video of the ``sjtu_tes space`` [here](https://github.com/SJTU-TES/awesome-sjtu-tes-demo).
+
+🔥 We primarily use the following icons to indicate the organization of each repository.
 
 **Paper Link** ![Static Badge](https://img.shields.io/badge/xxxx-paper-blue)
 
