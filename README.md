@@ -113,7 +113,7 @@ There are some repositories that can only be run on GPUs (taking several hours o
 [![Static Badge](https://img.shields.io/badge/CVPR-paper-blue)](https://openaccess.thecvf.com/content/CVPR2022/papers/Rombach_High-Resolution_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2022_paper.pdf)
 [![Static Badge](https://img.shields.io/badge/github-code-orange)](https://github.com/CompVis/stable-diffusion)
 [![Static Badge](https://img.shields.io/badge/hugging_face-pretrained-purple)](https://huggingface.co/runwayml/stable-diffusion-v1-5)
-[![Static Badge](https://img.shields.io/badge/sjtu_tes-repro-green)]()
+[![Static Badge](https://img.shields.io/badge/sjtu_tes-repro-green)](https://github.com/SJTU-TES/repro-text2img)
 [![GitHub stars](https://img.shields.io/github/stars/CompVis/stable-diffusion?style=social&label=Star&maxAge=8640)](https://GitHub.com/CompVis/stable-diffusion/) 
 
 The ``stable-diffusion-v1-5`` checkpoint was initialized with the weights of the ``stable-diffusion-v1-2`` checkpoint and subsequently fine-tuned on 595k steps at resolution 512x512 on ``laion-aesthetics v2 5+`` and 10% dropping of the text-conditioning to improve classifier-free guidance sampling.
@@ -343,7 +343,7 @@ The ``stable-diffusion-v1-5`` checkpoint was initialized with the weights of the
 [![Static Badge](https://img.shields.io/badge/github-code-orange)](https://github.com/heatingma/VidFetch)
 [![GitHub stars](https://img.shields.io/github/stars/heatingma/VidFetch?style=social&label=Star&maxAge=8640)](https://GitHub.com/heatingma/VidFetch/)
 
-``VidFetch``, **an open-source dataset download tool to obtain copyright-free videos from various free video websites.** [code]()
+``VidFetch``, **an open-source dataset download tool to obtain copyright-free videos from various free video websites.**
 
 <details>
 <summary>Click to view details</summary>
@@ -461,7 +461,7 @@ The ``stable-diffusion-v1-5`` checkpoint was initialized with the weights of the
 
 #### 5.1.3 ⭐UAP 
 
-[![Static Badge](https://img.shields.io/badge/cvpr-paper-blue)](https://openaccess.thecvf.com/content/CVPR2022/papers/Peng_Fingerprinting_Deep_Neural_Networks_Globally_via_Universal_Adversarial_Perturbations_CVPR_2022_paper.pdf)
+[![Static Badge](https://img.shields.io/badge/CVPR-paper-blue)](https://openaccess.thecvf.com/content/CVPR2022/papers/Peng_Fingerprinting_Deep_Neural_Networks_Globally_via_Universal_Adversarial_Perturbations_CVPR_2022_paper.pdf)
 [![Static Badge](https://img.shields.io/badge/github-code-orange)](https://github.com/faiimea/UAP)
 [![Static Badge](https://img.shields.io/badge/hugging_face-pretrained-purple)](https://huggingface.co/faiimea/uap)
 [![GitHub stars](https://img.shields.io/github/stars/faiimea/UAP?style=social&label=Star&maxAge=8640)](https://github.com/faiimea/UAP) 
