@@ -49,8 +49,8 @@ There are some repositories that can only be run on GPUs (taking several hours o
 	<td>&emsp;<a href=#text2video>1.2 Text2Video</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#text2img>1.3 Img2Text</a></td>
-	<td>&emsp;<a href=#text2video>1.4 Img2Img</a></td>
+	<td>&emsp;<a href=#img2text>1.3 Img2Text</a></td>
+	<td>&emsp;<a href=#img2img>1.4 Img2Img</a></td>
 </tr>
 <tr>
 	<td>&emsp;<a href=#deepfake>1.5 DeepFake</a></td>
