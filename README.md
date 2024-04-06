@@ -348,7 +348,7 @@ The ``stable-diffusion-v1-5`` checkpoint was initialized with the weights of the
 
 <details>
 <summary>Click to view details</summary>
-<img src="docs/examples/VidFecth.png" width="80%" alt="" />
+<img src="docs/examples/VidFetch.png" width="80%" alt="" />
 </details>
 
 ### [Cpp Oline](#content)
