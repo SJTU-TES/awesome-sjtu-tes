@@ -14,6 +14,8 @@ Through this platform, users can gain insights into cutting-edge research across
 
 🔥 We have provided a demonstration video of the ``sjtu_tes space`` [here](https://github.com/SJTU-TES/awesome-sjtu-tes-demo).
 
+🔥 We provide Chinese [Requirement Analysis Document](docs/文档/需求文档.md), [Design Document](docs/文档/分析文档.md), and [Testing Document](docs/文档/测试文档.md)
+
 🔥 We primarily use the following icons to indicate the organization of each repository.
 
 **Paper Link** ![Static Badge](https://img.shields.io/badge/xxxx-paper-blue)
