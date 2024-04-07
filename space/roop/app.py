@@ -12,17 +12,24 @@ def _handle_roop_solve(
     video_path: str,
     img_path: str
 ):
+    # Check file upload status
     if video_path is None:
         raise gr.Error("Please upload source video!")
     if img_path is None:
         raise gr.Error("Please upload target image!")
+    
+    # Check if the media folder exists 
     if not os.path.exists("media"):
         os.mkdir("media")
+        
+    # Begin solve and record the solving time
     start_time = time.time()
     command = f"python run.py -t {video_path} -s {img_path} -o {ROOP_OUTPUT_VIDEO_PATH}"
     os.system(command)
     solved_time = time.time() - start_time
-    message = "Successfully solve the GED problem, using time ({:.3f}s).".format(solved_time)
+    
+    # Message
+    message = "Successfully performed face replacement, using time ({:.3f}s).".format(solved_time)
     
     return message, ROOP_OUTPUT_VIDEO_PATH
     
@@ -43,6 +50,7 @@ def handle_roop(
 
 
 def handle_roop_clear():
+    # Replace the original image with the default image
     shutil.copy(
         src=ROOP_DEFAULT_PATH,
         dst=ROOP_OUTPUT_VIDEO_PATH

@@ -13,16 +13,23 @@ RESULT_PATH = "tmp/solve/mis_problem_unweighted.result"
 
 
 def _handle_mis_solve(file_path: str):
+    # Create a blank temporary folder
     if not os.path.exists("tmp"):
         os.mkdir("tmp")
     else:
         shutil.rmtree("tmp")
         os.mkdir("tmp")
+        
+    # Move the file to the temporary folder
     shutil.move(file_path, GPICKLE_PATH)
+    
+    # Begin solve and record the solving time
     start_time = time.time()
     solver = KaMISSolver()
     solver.solve("tmp")
     solved_time = time.time() - start_time
+    
+    # Draw pictures
     draw_mis_problem(
         save_path=MIS_PROBLEM_PATH,
         gpickle_path=GPICKLE_PATH
@@ -33,6 +40,8 @@ def _handle_mis_solve(file_path: str):
         result_path=RESULT_PATH,
         pos_type="kamada_kawai_layout"
     )
+    
+    # Message
     message = "Successfully solve the MIS problem, using time ({:.3f}s).".format(solved_time)
     
     return message, MIS_PROBLEM_PATH, MIS_SOLUTION_PATH
@@ -48,6 +57,7 @@ def handle_mis_solve(file_path: str):
 
 
 def handle_mis_clear():
+    # Replace the original image with the default image
     shutil.copy(
         src=MIS_DEFAULT_PATH,
         dst=MIS_PROBLEM_PATH

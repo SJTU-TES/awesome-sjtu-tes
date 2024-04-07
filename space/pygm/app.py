@@ -15,6 +15,7 @@ def _handle_pygm_solve(
     kpts1_path: str,
     kpts2_path: str,
 ):
+    # Check file upload status
     if img_1_path is None:
         raise gr.Error("Please upload file completely!")
     if img_2_path is None:
@@ -24,6 +25,7 @@ def _handle_pygm_solve(
     if kpts1_path is None:
         raise gr.Error("Please upload file completely!")
     
+    # Begin solve and record the solving time
     start_time = time.time()
     pygm_rrwm(
         img1_path=img_1_path,
@@ -35,6 +37,7 @@ def _handle_pygm_solve(
     )
     solved_time = time.time() - start_time
     
+    # Message
     message = "Successfully solve the PYGM problem, using time ({:.3f}s).".format(solved_time)
     
     return message, PYGM_SOLUTION_1_PATH, PYGM_SOLUTION_2_PATH
@@ -60,6 +63,7 @@ def handle_pygm_solve(
 
 
 def handle_pygm_clear():
+    # Replace the original image with the default image
     shutil.copy(
         src=PYGM_IMG_DEFAULT_PATH,
         dst=PYGM_SOLUTION_1_PATH
@@ -71,12 +75,6 @@ def handle_pygm_clear():
 
     message = "successfully clear the files!"
     return message, PYGM_SOLUTION_1_PATH, PYGM_SOLUTION_2_PATH
-
-
-def convert_image_path_to_bytes(image_path):
-    with open(image_path, "rb") as f:
-        image_bytes = f.read()
-    return image_bytes
 
 
 with gr.Blocks() as pygm_page:

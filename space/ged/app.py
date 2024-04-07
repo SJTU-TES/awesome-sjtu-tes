@@ -6,6 +6,7 @@ from genn_astar import astar
 import pygmtools as pygm
 
 
+# Define file address constant
 GED_IMG_DEFAULT_PATH = "media/ged_default.png"
 GED_SOLUTION_1_PATH = "media/ged_image_1.png"
 GED_SOLUTION_2_PATH = "media/ged_image_2.png"
@@ -19,16 +20,20 @@ def _handle_ged_solve(
     gexf_1_path: str,
     gexf_2_path: str
 ):
+    # Check file upload status
     if gexf_1_path is None:
         raise gr.Error("Please upload file completely!")
     if gexf_2_path is None:
         raise gr.Error("Please upload file completely!")
     
-    start_time = time.time()
+    # Check the pre-trained file
     dirs = pygm.utils.user_cache_dir("pygmtools")
     if not os.path.exists(dirs):
         os.makedirs(dirs)
-    shutil.move(src=PRETRAINED_PATH, dst=os.path.join(dirs, PRETRAINED_PATH))
+    shutil.copy(src=PRETRAINED_PATH, dst=os.path.join(dirs, PRETRAINED_PATH))
+    
+    # Begin solve and record the solving time
+    start_time = time.time()
     astar(
         g1_path=gexf_1_path,
         g2_path=gexf_2_path,
@@ -37,6 +42,7 @@ def _handle_ged_solve(
     )
     solved_time = time.time() - start_time
     
+    # Message
     message = "Successfully solve the GED problem, using time ({:.3f}s).".format(solved_time)
     
     return message, GED_SOLUTION_1_PATH, GED_SOLUTION_2_PATH, GED_SOLUTION_3_PATH, \
@@ -60,6 +66,7 @@ def handle_ged_solve(
 
 
 def handle_ged_clear():
+    # Replace the original image with the default image
     shutil.copy(
         src=GED_IMG_DEFAULT_PATH,
         dst=GED_SOLUTION_1_PATH

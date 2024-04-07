@@ -13,19 +13,24 @@ def _handle_tsp_solve(
     file_path: str,
     norm: str,
 ):
+    # Check file upload status
     if file_path is None:
         raise gr.Error("Please upload a '.tsp' file!")
     if norm == '':
         norm = "EUC_2D"
     if norm != "EUC_2D" and norm != "GEO":
         raise gr.Error("Invaild edge_weight_type! Only support 'GEO' and 'EUC_2D'.")
+    
+    # Begin solve and record the solving time
+    start_time = time.time()
     solver = TSPConcordeSolver(scale=1)
     solver.from_tsp(file_path, norm=norm)
-    start_time = time.time()
     solver.solve()
-    solved_time = time.time() - start_time
     tours = solver.tours
     points = solver.points
+    solved_time = time.time() - start_time
+
+    # Draw pictures
     draw_tsp_problem(
         save_path=TSP_PROBLEM_PATH,
         points=points,
@@ -35,6 +40,8 @@ def _handle_tsp_solve(
         points=points,
         tours=tours
     )
+
+    # Message
     message = "Successfully solve the TSP problem, using time ({:.3f}s).".format(solved_time)
     
     return message, TSP_PROBLEM_PATH, TSP_SOLUTION_PATH
@@ -53,6 +60,7 @@ def handle_tsp_solve(
 
 
 def handle_tsp_clear():
+    # Replace the original image with the default image
     shutil.copy(
         src=TSP_DEFAULT_PATH,
         dst=TSP_PROBLEM_PATH
@@ -63,12 +71,6 @@ def handle_tsp_clear():
     )
     message = "successfully clear the files!"
     return message, TSP_PROBLEM_PATH, TSP_SOLUTION_PATH
-
-
-def convert_image_path_to_bytes(image_path):
-    with open(image_path, "rb") as f:
-        image_bytes = f.read()
-    return image_bytes
 
 
 with gr.Blocks() as tsp_page:
