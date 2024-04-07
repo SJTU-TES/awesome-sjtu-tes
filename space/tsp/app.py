@@ -82,6 +82,8 @@ with gr.Blocks() as tsp_page:
         - Upload a '.tsp' file from tsplib .
         - The images of the TSP problem and solution will be shown after you click the solve button.
         - Click the 'clear' button to clear all the files.
+        ## Examples
+        - You can get the test examples from our [TSP Dataset Repo.](https://huggingface.co/datasets/SJTU-TES/TSP) 
         '''
     )
 
