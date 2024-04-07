@@ -14,7 +14,7 @@ Through this platform, users can gain insights into cutting-edge research across
 
 🔥 We have provided a demonstration video of the ``sjtu_tes space`` [here](https://github.com/SJTU-TES/awesome-sjtu-tes-demo).
 
-🔥 We provide Chinese [Requirement Analysis Document](docs/文档/需求文档.md), [Design Document](docs/文档/分析文档.md), [Testing Document](docs/文档/测试文档.md), [Deployment Document](docs/文档/部署文档.md)
+🔥 We provide Chinese [Requirement Document](docs/文档/需求文档.md), [Design Document](docs/文档/分析文档.md), [Testing Document](docs/文档/测试文档.md) and [Deployment Document](docs/文档/部署文档.md)
 
 🔥 We primarily use the following icons to indicate the organization of each repository.
 
