@@ -62,6 +62,7 @@ There are some repositories that can only be run on GPUs (taking several hours o
 </tr>
 <tr>
 	<td>&emsp;<a href=#deepfake>1.5 DeepFake</a></td>
+	<td>&emsp;<a href=#deepfake>1.6 FakeDetect</a></td>
 </tr>
 
 
@@ -244,6 +245,29 @@ The ``stable-diffusion-v1-5`` checkpoint was initialized with the weights of the
 </details>
 
 
+### [FakeDetect](#content)
+
+#### 1.6.1 UniversalFakeDetect
+
+[![Static Badge](https://img.shields.io/badge/website-url-red)](https://utkarshojha.github.io/universal-fake-detection/)
+[![Static Badge](https://img.shields.io/badge/CVPR-paper-blue)](https://openaccess.thecvf.com/content/CVPR2023/papers/Ojha_Towards_Universal_Fake_Image_Detectors_That_Generalize_Across_Generative_Models_CVPR_2023_paper.pdf)
+[![Static Badge](https://img.shields.io/badge/github-code-orange)](https://github.com/Yuheng-Li/UniversalFakeDetect)
+[![Static Badge](https://img.shields.io/badge/sjtu_tes-space-yellow)](https://huggingface.co/spaces/SJTU-TES/Fake-Detect)
+[![Static Badge](https://img.shields.io/badge/sjtu_tes-dataset-brightgreen)](https://huggingface.co/datasets/SJTU-TES/Fake-Detect)
+[![GitHub stars](https://img.shields.io/github/stars/Yuheng-Li/UniversalFakeDetect?style=social&label=Star&maxAge=8640)](https://github.com/Yuheng-Li/UniversalFakeDetect/) 
+
+``UniversalFakeDetect``, **proposes to perform real-vs-fake classification without learning;** i.e., using a feature space not explicitly trained to distinguish real from fake images. The authors use nearest neighbor and linear probing as instantiations of this idea. When given access to the feature space of a large pretrained vision-language model, the very simple baseline of nearest neighbor classification has surprisingly good generalization ability in detecting fake images from a wide variety of generative models.
+
+<details>
+<summary>Click to view examples we have implemented</summary>
+
+<div style="display: flex; flex-direction: row;">
+  <img src="docs/examples/fd_1.png" weight="80%">
+</div>
+<div style="display: flex; flex-direction: row;">
+  <img src="docs/examples/fd_2.png" weight="80%">
+</div>
+</details>
 
 ## [CO](#content)
 

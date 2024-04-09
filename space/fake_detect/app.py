@@ -16,10 +16,7 @@ def _handle_fd_solve(img_path: str):
     # Check file upload status
     if img_path is None:
         raise gr.Error("Please upload file completely!")
-    
-    # gzip
-    os.system("gzip clip/bpe_simple_vocab_16e6.txt")
-    
+
     # Begin solve and record the solving time
     start_time = time.time()
     detect(
@@ -65,7 +62,7 @@ with gr.Blocks() as ged_page:
         - The detection result will be shown after you click the detect button.
         - Click the 'clear' button to clear all the files.
         ## Examples
-        - You can get the test examples from our [FakeDetect Dataset Repo.](https://huggingface.co/datasets/SJTU-TES/FakeDetect) 
+        - You can get the test examples from our [FakeDetect Dataset Repo.](https://huggingface.co/datasets/SJTU-TES/Fake-Detect) 
         '''
     )
 
