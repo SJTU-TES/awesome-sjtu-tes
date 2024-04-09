@@ -1,0 +1,3 @@
+gradio
+pydub
+whisper

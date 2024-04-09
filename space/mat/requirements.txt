@@ -1,0 +1,10 @@
+gradio==4.24.0
+kornia==0.7.2
+numpy==1.24.3
+onnxruntime==1.17.1
+opencv_python==4.8.1.78
+Pillow==10.1.0
+Pillow==10.3.0
+torch==2.2.0
+torchvision==0.16.0
+tqdm==4.66.1
