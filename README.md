@@ -62,7 +62,7 @@ There are some repositories that can only be run on GPUs (taking several hours o
 </tr>
 <tr>
 	<td>&emsp;<a href=#deepfake>1.5 DeepFake</a></td>
-	<td>&emsp;<a href=#deepfake>1.6 FakeDetect</a></td>
+	<td>&emsp;<a href=#fakedetect>1.6 FakeDetect</a></td>
 </tr>
 
 
